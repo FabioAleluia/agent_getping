@@ -1,0 +1,13 @@
+[servidor]
+# Preserve o endpoint do servidor atual. Prefira HTTPS quando disponível.
+url = http://SEU_IP_SERVIDOR:5000/informacoes_agent
+# CA pública local do Getping, se necessária. Caminho relativo a este config.ini.
+# certificado_ca = getping-ca.crt
+# Token gerado no Getping. Não compartilhe o config.ini real.
+token = SEU_TOKEN_DE_AGENTE_AQUI
+# Período entre inícios dos ciclos: inteiro de 5 a 86400 segundos.
+intervalo = 20
+
+[rede]
+# IPv4 de diagnóstico. IP local e gateway seguem a rota até este destino.
+ip_teste_wan = 8.8.8.8

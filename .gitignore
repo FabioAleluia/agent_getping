@@ -1,0 +1,9 @@
+config.ini
+machine_identity.json
+machine_identity.tmp
+agent.log*
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
